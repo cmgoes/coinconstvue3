@@ -1,0 +1,86 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+font-family: 'SF Pro Display Regular';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Regular'), url('./sf-pro-display/SFPRODISPLAYREGULAR.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Ultralight Italic';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Ultralight Italic'), url('./sf-pro-display/SFPRODISPLAYULTRALIGHTITALIC.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Thin Italic';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Thin Italic'), url('./sf-pro-display/SFPRODISPLAYTHINITALIC.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Light Italic'), url('./sf-pro-display/SFPRODISPLAYLIGHTITALIC.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Medium';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Medium'), url('./sf-pro-display/SFPRODISPLAYMEDIUM.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Semibold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Semibold Italic'), url('./sf-pro-display/SFPRODISPLAYSEMIBOLDITALIC.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Bold';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Bold'), url('./sf-pro-display/SFPRODISPLAYBOLD.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Heavy Italic';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Heavy Italic'), url('./sf-pro-display/SFPRODISPLAYHEAVYITALIC.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Display Black Italic';
+font-style: normal;
+font-weight: normal;
+src: local('SF Pro Display Black Italic'), url('./sf-pro-display/SFPRODISPLAYBLACKITALIC.woff') format('woff');
+}
+
+.area-height {
+  height: 635px;
+}
+.button-gradient {
+  background: linear-gradient(248.66deg, rgba(110, 135, 165, 0.5) 0%, rgba(110, 135, 165, 0.5) 100%);
+}
+.bg-gradient {
+  background: linear-gradient(189.88deg, rgba(30, 31, 35, 0.5) 40.37%, rgba(146, 203, 90, 0.5) 100%);
+}
