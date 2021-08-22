@@ -84,3 +84,6 @@ src: local('SF Pro Display Black Italic'), url('./sf-pro-display/SFPRODISPLAYBLA
 .bg-gradient {
   background: linear-gradient(189.88deg, rgba(30, 31, 35, 0.5) 40.37%, rgba(146, 203, 90, 0.5) 100%);
 }
+.green-gradient {
+  background: linear-gradient(110.56deg, rgba(146, 203, 90, 0) 0%, rgba(146, 203, 90, 0.5) 101.14%);
+}

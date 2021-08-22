@@ -11,7 +11,7 @@ module.exports = {
             '20': ['20px', '24px'],
           },
           maxWidth: {
-            'xxs': '16rem',
+            'xxs': '18rem',
           },
           colors: {
             'black-light': '#1E1F23',
@@ -20,6 +20,7 @@ module.exports = {
             'red-lighten': 'rgba(231, 95, 97, 0.1)',
             'gray-darken': '#6E87A5',
             'gray-lighter': 'rgba(110, 135, 165, 0.2)',
+            'gray-light': 'rgba(110, 135, 165, 0.1)',
             'green-darken': '#92CB5A',
             'green-lighten': 'rgba(146, 203, 90, 0.3)',
             'green-light': 'rgba(146, 203, 90, 0.1)',

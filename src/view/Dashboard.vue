@@ -1,19 +1,21 @@
 <template>
-  <Header />
-  <div class="border-b border-solid border-white-light">
-    <div class="flex flex-col 2xl:flex-row">
-      <div class="w-full 2xl:w-2/3 2xl:border-r border-solid border-white-light">
-        <Chart />
-        <History />
-      </div>
-      <div class="w-full 2xl:w-1/3 flex">
-        <div class="w-1/2 border-r border-solid border-white-light ">
-          <Calculate />
-          <Price />
+  <div class="bg-black-light">
+    <Header />
+    <div class="border-b border-solid border-white-light">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="w-full 2xl:w-2/3 2xl:border-r border-solid border-white-light">
+          <Chart />
+          <History />
         </div>
-        <div class="w-1/2 bg-gradient">
-          <Purchase />
-          <Balance />
+        <div class="w-full 2xl:w-1/3 flex">
+          <div class="w-1/2 border-r border-solid border-white-light ">
+            <Calculate />
+            <Price />
+          </div>
+          <div class="w-1/2 bg-gradient">
+            <Purchase />
+            <Balance />
+          </div>
         </div>
       </div>
     </div>
